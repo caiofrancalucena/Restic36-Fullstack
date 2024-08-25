@@ -1,0 +1,12 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "Descrição do projeto: Essa aplicação se trata de um projeto desenvolvido como componente curricular para aviliação do presente aluno para avaliação de suas habilidades na Unidade 3 da Residencia 36 de FullStack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

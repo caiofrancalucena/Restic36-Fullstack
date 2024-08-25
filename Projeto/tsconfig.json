@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",                          // Define a versão do ECMAScript para a qual o TypeScript será compilado.
+    "module": "es6",                          // Define o sistema de módulos.
+    "strict": true,                           // Habilita verificações estritas de tipo.
+    "esModuleInterop": true,                  // Habilita a interoperabilidade entre CommonJS e ES Modules.
+    "forceConsistentCasingInFileNames": true, // Enforce o uso consistente de maiúsculas e minúsculas em nomes de arquivos.
+    "skipLibCheck": true,                     // Pula a checagem de arquivos de definição de tipo.
+    "outDir": "./dist"                        // Define o diretório de saída para os arquivos compilados.
+  },
+  "include": ["src//*"],                    // Inclui todos os arquivos TypeScript na pasta src.
+  "exclude": ["node_modules"]                 // Exclui a pasta node_modules da compilação.
+}
+  
